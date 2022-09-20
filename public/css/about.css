@@ -1,0 +1,303 @@
+@import url('estructura.css');
+@import url('header.css');
+@import url('btn-top.css');
+
+.contenido{
+    margin: 80px auto;
+    margin-bottom: 50px;
+}
+
+#navbar{
+    position: fixed;
+    margin: 10px 15px 10px 15px;
+    width: 270px;
+    min-width: 270px;
+    height: 480px;
+    top: 80px;
+    left: 0;
+    right: 0;
+}
+
+#navbar .imagen{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+.imagen img{
+    height: 100px;
+    width: 70px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+}
+
+
+#navbar .navbar-nav{
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 1px 2px rgb(85, 85, 85);
+    padding: 0 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#navbar .nav-item{
+    margin: 10px auto;
+    width: fit-content;
+}
+
+#navbar .nav-item:hover{
+    background-color: rgb(169, 169, 169);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#navbar .nav-link{
+    color: rgb(0, 0, 0);
+    display: block;
+    padding: 5px 25px
+}
+
+.secciones{
+    margin: 10px 20px 10px 350px;
+}
+
+.seccion{
+    margin-bottom: 40px;
+}
+
+.seccion .title h2{
+    color: white;
+    border-bottom: 1px solid white;
+    width: fit-content;
+}
+
+.seccion .seccion-contenido{
+    background-color: rgb(239, 239, 239);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+#experiencia .seccion-contenido .text{
+    padding-left: 20px;
+}
+
+#experiencia p{
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+
+.bold{
+    color: black !important
+}
+
+#educacion .mini-seccion .text{
+    padding-left: 10px;
+    color: rgb(83, 83, 83);
+}
+
+#educacion .mini-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#educacion .mini-seccion .mini-title img{
+    margin-right: 10px;
+}
+
+#educacion .mini-title .uasd{
+    height: 36px;
+    width: 30px;
+}
+
+#educacion .mini-title .unicda{
+    height: 30px;
+    width: 30px;
+}
+
+#educacion .mini-title .infotep{
+    height: 30px;
+    width: 40px;
+}
+
+#tecnologias .seccion-contenido{
+    padding-bottom: 40px;
+}
+
+#tecnologias .mini-seccion{
+    text-align: center;
+}
+
+#tecnologias .mini-seccion .elemento img{
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin: auto auto;
+}
+
+#tecnologias .mini-seccion .lista{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    padding: 10px 2px;
+    border-radius: 20px;
+}
+
+#tecnologias .mini-seccion .items{
+    display: grid;
+    grid-column-gap: 1rem;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#tecnologias .mini-seccion .lenguajes{
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#tecnologias .mini-seccion .bd, #tecnologias .mini-seccion .frameworks{
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#tecnologias .mini-seccion .otros{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#tecnologias .mini-seccion .elemento{
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    width: 80px;
+    padding: 10px;
+    padding-bottom: 0.1px;
+    border-radius: 10px;
+}
+
+.sql-server{
+    width: fit-content !important;
+}
+
+#contacto .seccion-contenido a{
+    display: block;
+    color: black;
+}
+
+#contacto .seccion-contenido{
+    padding-bottom: 40px;
+}
+
+.seccion-contenido .bold{
+    font-weight: bold;
+}
+
+#archivo .seccion-contenido {
+    padding: 40px;
+}
+
+#archivo .seccion-contenido a{
+    background-color: rgb(202, 46, 163);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+
+#archivo .seccion-contenido a:hover{
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+@media (max-width: 1250px) {
+    #tecnologias .mini-seccion .items{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+} 
+
+@media (max-width: 990px) {
+    #navbar{
+        height: 20%;
+        max-width: 1000px;
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        min-width: 270px;
+        position: relative;
+        z-index: 0;
+        top: 0;
+    }
+    #navbar .navbar-nav{
+        margin: auto 20px;
+    }
+
+    #navbar .nav-link{
+        width: 770px;
+    }
+    
+    .secciones{
+        margin: 10px 20px 10px 20px;
+        min-width: 300px;
+    }
+
+    #tecnologias .mini-seccion .lenguajes{
+        grid-template-columns: repeat(7, 1fr);
+    }
+    
+    #tecnologias .mini-seccion .bd, #tecnologias .mini-seccion .frameworks{
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    #tecnologias .mini-seccion .otros{
+        grid-template-columns: repeat(3, 1fr);
+    }
+} 
+
+@media (max-width: 920px) {
+    #tecnologias .mini-seccion .items{
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 1rem;
+    }
+    
+    #navbar .nav-link{
+        width: 540px;
+    }
+}
+
+@media (max-width: 690px) {
+    #tecnologias .mini-seccion .items{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
+    }
+    
+    #navbar .nav-link{
+        width: 400px;
+    }
+}
+
+@media (max-width: 575px) {
+    #tecnologias .mini-seccion .items{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+    
+    #navbar .nav-link{
+        width: 310px;
+    }
+}
+
+@media (max-width: 460px) {
+    #tecnologias .mini-seccion .items{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+    }
+
+    #navbar .nav-link{
+        width: 200px;
+    }
+}
+

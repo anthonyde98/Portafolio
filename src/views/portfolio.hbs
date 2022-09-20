@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony</title>
+    <link rel="stylesheet" href="css/portafolio.css">
+    <link rel="icon" type="image/x-icon" href="img/suitcase.png">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="contenedor">
+        {{>header}}
+        <div class="contenido">
+            <div class="menu-secundario">
+                <div class="btns">
+                    <i id="web-btn" class="fad fa-browser" title="Aplicaciones web"></i>
+                    <i id="desktop-btn" class="fad fa-desktop" title="Aplicaciones de escritorio"></i>
+                    <i id="mobile-btn" class="fad fa-mobile" title="Aplicaciones móviles"></i>
+                    <i id="config-btn" class="fad fa-cog"  title="API's"></i>
+                </div>
+            </div>
+            <div id="proyectos-produccion" class="proyectos-produccion">
+                <h2 class="title">En produccion</h2>
+                <div class="proyectos">
+                </div>
+            </div>
+            <div id="proyectos-no-produccion" class="proyectos-no-produccion">
+                <h2 class="title">En mi repositorio</h2>
+                <div class="proyectos">
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>btnTop}}
+    <script src="js/portafolio.js" type="module"></script>
+    <script src="js/partials.js"></script>
+</body>
+</html>

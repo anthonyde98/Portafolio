@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.886);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/mean2.png");
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 520px) {
+    header{
+        padding: 0;
+    }
+    .menu-top{
+        padding: 10px 20px;
+    }
+    .menu-top .opciones{
+        width: 250px;
+        font-size: 12px;
+    }
+    .menu-top .logo{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    header{
+        padding: 0;
+    }
+    .menu-top .opciones{
+        width: 200px;
+        font-size: 10px;
+    }
+    .menu-top .logo{
+        font-size: 14px;
+    }
+    .menu-top .opciones a{
+        padding: 0 5px;
+    }
+}

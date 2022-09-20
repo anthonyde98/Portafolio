@@ -1,0 +1,54 @@
+@import url('estructura.css');
+@import url('header.css');
+@import url('btn-top.css');
+
+.contenido{
+    color: white;
+}
+
+.bienvenida{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.saludo{
+    font-weight: bold;
+    font-size: 45px;
+    margin: 10px;
+}
+
+.posicion{
+    font-weight: 500;
+    font-size: 25px;
+    margin: 10px;
+}
+
+.descripcion{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgb(199, 199, 199);
+}
+
+.descripcion p{
+    font-size: 16px;
+    margin: 5px;
+}
+
+.descripcion a{
+    background-color: rgb(255, 255, 255);
+    color: rgb(96, 96, 96);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.descripcion a:hover{
+    box-shadow: 0 2px 3px rgba(103, 103, 103, 0.586);
+    height: 40px;
+    border-radius: 50%;
+}

@@ -1,0 +1,195 @@
+@import url('estructura.css');
+@import url('header.css');
+@import url('btn-top.css');
+
+.contenido{
+    margin: 80px auto;
+    margin-bottom: 30px;
+}
+
+.menu-secundario{
+    top: 200px;
+    position: fixed;
+    right: 5px;
+    padding: 6px 10px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.713);
+}
+
+.menu-secundario .btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 140px;
+    width: 30px;
+}
+
+.menu-secundario .btns i{
+    background-color: rgb(186, 186, 186);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(36, 36, 36);
+}
+
+.menu-secundario .btns i:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.713);
+    cursor: pointer;
+}
+
+.proyectos-produccion, .proyectos-no-produccion{
+    display: none;
+    margin: auto 30px;
+    margin-bottom: 30px;
+}
+
+div .title{
+    color: white;
+    text-align: center;
+}
+
+.proyectos{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 1rem;
+    background-color: rgba(169, 169, 169, 0.568);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.713);
+    width: min-content;
+}
+
+.proyectos .proyecto{
+    margin: auto 8px;
+    background-color: rgb(234, 234, 234);
+    border-radius: 5px;
+    height: 270px;
+    min-height: 270px;
+    width: 200px;
+    box-shadow: 0 3px 4px rgba(64, 64, 64, 0.41);
+}
+
+.proyectos .proyecto:hover{
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.743);
+}
+
+.proyectos .proyecto .imagen{
+    height: 130px;
+    max-height: 130px;
+}
+
+.proyectos .proyecto img{
+    height: 130px;
+    width: 200px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.proyectos .proyecto .descripcion{
+    padding: 0 10px;
+    font-size: 10px;
+    height: 80px;
+    max-height: 80px;
+}
+
+.proyectos .proyecto .descripcion .des{
+    font-weight: 900;
+    color: rgb(42, 42, 42);
+}
+
+.proyectos .proyecto .descripcion .tec{
+    font-weight: 600;
+    color: rgb(34, 102, 153);
+}
+
+.proyectos .proyecto .btns{
+    width: 100%;
+    max-height: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.proyectos .proyecto .btns .btn{
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.proyectos .proyecto .btns .git{
+    border: 1px solid rgb(86, 86, 86);
+    color: rgb(86, 86, 86);
+}
+
+.proyectos .proyecto .btns .git:hover{
+    background-color: rgb(86, 86, 86);
+}
+
+.proyectos .proyecto .btns .btn:hover{
+    color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.559);
+}
+
+.proyectos .proyecto .btns .credit{
+    border: 1px solid rgb(205, 110, 173);
+    color: rgb(205, 110, 173);
+}
+
+.proyectos .proyecto .btns .credit:hover{
+    background-color: rgb(205, 110, 173);
+}
+
+.proyectos .proyecto .btns .contact{
+    border: 1px solid rgb(56, 127, 221);
+    color: rgb(56, 127, 221);
+}
+
+.proyectos .proyecto .btns .contact:hover{
+    background-color: rgb(56, 127, 221);
+}
+
+.proyectos .proyecto .btns .todo{
+    border: 1px solid rgb(144, 56, 221);
+    color: rgb(144, 56, 221);
+}
+
+.proyectos .proyecto .btns .todo:hover{
+    background-color: rgb(144, 56, 221);
+}
+
+@media (max-width: 1500px) {
+    .proyectos{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+@media (max-width: 1220px) {
+    .proyectos{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 1005px) {
+    .proyectos{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 790px) {
+    .proyectos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 575px) {
+    .proyectos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
