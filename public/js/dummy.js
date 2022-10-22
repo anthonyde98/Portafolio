@@ -36,6 +36,28 @@ const PROYECTOS = [
         type: 'todo'
     },
     {
+        nombre: "Blog App",
+        imagen: "blog.png",
+        descripcion: "Aplicación web para crear, editar, ver y eliminar blogs.",
+        tecnologias: "React",
+        github: "https://github.com/anthonyde98/blogs-app",
+        enlace: "",
+        produccion: false,
+        entorno: "web",
+        icon: ""
+    },
+    {
+        nombre: "Cliente App",
+        imagen: "cliente.png",
+        descripcion: "Aplicación web gestionar los clientes de una empresa.",
+        tecnologias: "Angular",
+        github: "https://github.com/anthonyde98/Prueba-tecnica-clientes/tree/master/cliente-frontend",
+        enlace: "",
+        produccion: false,
+        entorno: "web",
+        icon: ""
+    },
+    {
         nombre: "Credit Scoring App mobile",
         imagen: "creditmobile.png",
         descripcion: "Aplicación móvil para mostrar los puntajes de credito de los clientes del Banco Fihogar.",
@@ -96,6 +118,28 @@ const PROYECTOS = [
         descripcion: "API para gestionar libros.",
         tecnologias: "ASP.Net, C#",
         github: "https://github.com/anthonyde98/APIBooks",
+        enlace: "",
+        produccion: false,
+        entorno: "config",
+        icon: ""
+    },
+    {
+        nombre: "Blog Api",
+        imagen: "api.jpg",
+        descripcion: "API o backend para crear, editar, ver y eliminar blogs.",
+        tecnologias: "Nodejs, Express, MongoDB",
+        github: "https://github.com/anthonyde98/blogs-api",
+        enlace: "",
+        produccion: false,
+        entorno: "config",
+        icon: ""
+    },
+    {
+        nombre: "Cliente Api",
+        imagen: "api.jpg",
+        descripcion: "API o backend gestionar los clientes de una empresa.",
+        tecnologias: "Nodejs, Express, MongoDB",
+        github: "https://github.com/anthonyde98/Prueba-tecnica-clientes/tree/master/cliente-backend",
         enlace: "",
         produccion: false,
         entorno: "config",
@@ -247,7 +291,7 @@ const PROYECTOS = [
     {
         nombre: "API Ventas",
         imagen: "api.jpg",
-        descripcion: "API que maneja la manipulación de datos de una base de datos de ventas de productos.",
+        descripcion: "API que maneja la venta de productos.",
         tecnologias: "ASP.Net, Sql Server",
         github: "https://github.com/anthonyde98/APIVentas",
         enlace: "",

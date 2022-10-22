@@ -31,8 +31,12 @@ app.get("/portfolio", (req, res) => {
 });
 
 app.get("/download", (req, res) => {
-    res.download('public/docs/Anthony CV (2022 - Actual).pdf')
+    res.download('public/docs/CELL IT - TALENDIG - CV Anthony Peralta -v1.1.pdf')
 })
+
+app.get("**", (req, res) => {
+    res.redirect('/')
+});
 
 app.listen(4000, () => {
     console.log('Server corriendo http://localhost:4000');
