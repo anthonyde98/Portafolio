@@ -1,6 +1,7 @@
 const path = require('path');
 const express = require('express');
 const hbs = require('hbs');
+require("dotenv").config();
 
 const app = express();
 
@@ -38,6 +39,6 @@ app.get("**", (req, res) => {
     res.redirect('/')
 });
 
-app.listen(4000, () => {
+app.listen(process.env.PORT || 4000, () => {
     console.log('Server corriendo http://localhost:4000');
 });
