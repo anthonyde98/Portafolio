@@ -1,6 +1,7 @@
 const btnToTop = document.getElementById('btnToTop');
 const btn = btnToTop.getElementsByTagName('button')[0];
 const anchors = document.getElementById('header').getElementsByTagName('a');
+const indexes = document.getElementsByClassName('nav-item');
 
 onscroll = () => {
     scrollTop();
@@ -11,18 +12,22 @@ onload = () => {
     getpath();
 }
 
-const getpath = () => {
-    let path = location.pathname;
-    let index = path.includes('#') ? "" : path.split('#')[1];
-    setIndexAbout(index);
-    path = path.slice(1);
-    opcionMenuHeaderSelected(path === "" ? "index" : path)
+const setAboutBtn = (index) => {
+    for(let i = 0; i < indexes.length; i++){
+        const element = indexes.item(i);
+        if(i === index){      
+            element.style = "background-color: rgb(169, 169, 169); font-weight: bold; border-radius: 5px;";
+        }
+        else{
+            element.style = "";
+        }
+    }
 }
 
-const setIndexAbout = (index) => {
-    const element = document.getElementById(index);
-
-    element.style = "background-color: rgb(169, 169, 169); font-weight: bold; border-radius: 5px;";
+const getpath = () => {
+    let path = location.pathname;
+    path = path.slice(1);
+    opcionMenuHeaderSelected(path === "" ? "index" : path)
 }
 
 const opcionMenuHeaderSelected = (path) => {
