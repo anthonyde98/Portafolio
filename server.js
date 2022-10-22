@@ -18,7 +18,7 @@ app.set('views', viewsPath);
 hbs.registerPartials(partialsPath);
 
 // Routes
-app.get("", (req, res) => {
+app.get("/", (req, res) => {
     res.render('index');
 });
 
