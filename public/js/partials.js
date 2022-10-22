@@ -13,8 +13,15 @@ onload = () => {
 
 const getpath = () => {
     let path = location.pathname;
+    let index = path.includes('#') ? "" : path.split('#')[1];
     path = path.slice(1);
     opcionMenuHeaderSelected(path === "" ? "index" : path)
+}
+
+const setIndexAbout = (index) => {
+    const element = document.getElementById(index);
+
+    element.style = "background-color: rgb(169, 169, 169); font-weight: bold; border-radius: 5px;";
 }
 
 const opcionMenuHeaderSelected = (path) => {
