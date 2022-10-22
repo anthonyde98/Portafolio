@@ -14,6 +14,7 @@ onload = () => {
 const getpath = () => {
     let path = location.pathname;
     let index = path.includes('#') ? "" : path.split('#')[1];
+    setIndexAbout(index);
     path = path.slice(1);
     opcionMenuHeaderSelected(path === "" ? "index" : path)
 }
