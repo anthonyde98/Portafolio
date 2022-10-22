@@ -1,7 +1,7 @@
 const PROYECTOS = [
     {
         nombre: "Credit Scoring App",
-        imagen: "credit.png",
+        imagen: "16MwQJc2NA61tkqfQXzpLHVaHbwhDAaV1",
         descripcion: "Aplicación web front-end para gestionar los puntajes de credito de los clientes del Banco Fihogar.",
         tecnologias: "Angular",
         github: "https://github.com/anthonyde98/credit-scoring-app-frontend",
@@ -13,7 +13,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Contact List App",
-        imagen: "contact.png",
+        imagen: "1hg2S6PrMlqNMw_4a0XU2eHeRcRFH1Eki",
         descripcion: "Aplicación web de lista de contactos, ésta está conectada con una aplicación móvil.",
         tecnologias: "Angular, Firebase",
         github: "https://github.com/anthonyde98/contact-list-webapp",
@@ -25,7 +25,7 @@ const PROYECTOS = [
     },
     {
         nombre: "ToDo List App",
-        imagen: "todo.png",
+        imagen: "1lgF3XR7RTO7JnJdCsxjhQ6R4DkhvySUh",
         descripcion: "Aplicación web para gestionar tareas, ésta está conectada con una aplicación móvil.",
         tecnologias: "Angular, Firebase",
         github: "https://github.com/anthonyde98/ToDoList",
@@ -37,7 +37,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Blog App",
-        imagen: "blog.png",
+        imagen: "1soQskB3Z1rxasKXUHrYwT6QFW1dJ2dD_",
         descripcion: "Aplicación web para crear, editar, ver y eliminar blogs.",
         tecnologias: "React",
         github: "https://github.com/anthonyde98/blogs-app",
@@ -48,7 +48,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Cliente App",
-        imagen: "cliente.png",
+        imagen: "1owQgVNI5q5EPXj_V25CnKAKHKx7ZaCxm",
         descripcion: "Aplicación web gestionar los clientes de una empresa.",
         tecnologias: "Angular",
         github: "https://github.com/anthonyde98/Prueba-tecnica-clientes/tree/master/cliente-frontend",
@@ -59,7 +59,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Credit Scoring App mobile",
-        imagen: "creditmobile.png",
+        imagen: "1gga9WmlWCLIlSq0OWqax3cf19SftOPL6",
         descripcion: "Aplicación móvil para mostrar los puntajes de credito de los clientes del Banco Fihogar.",
         tecnologias: "Angular, Ionic, Capacitor",
         github: "https://github.com/anthonyde98/cred-scoring-app-mobile-menu",
@@ -70,7 +70,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Contact List App mobile",
-        imagen: "contactmobile.png",
+        imagen: "1bCRNN87p3F2faENGwAx-bXl4uhofr2D7",
         descripcion: "Aplicación móvil de lista de contactos.",
         tecnologias: "Angular, Ionic, Capacitor, Firebase",
         github: "https://github.com/anthonyde98/contact-list",
@@ -81,7 +81,7 @@ const PROYECTOS = [
     },
     {
         nombre: "ToDo List App mobile",
-        imagen: "todomobile.png",
+        imagen: "1Pc2CXJUXELcspPsN8ENiCciV3J0jz09-",
         descripcion: "Aplicación móvil de lista de tareas.",
         tecnologias: "Angular, Ionic, Capacitor, Firebase",
         github: "https://github.com/anthonyde98/ToDo-list-mobile",
@@ -92,7 +92,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Tarea Word",
-        imagen: "nodejsimage.png",
+        imagen: "1Gd7TzWHtD3mHr2ERxVfwTMp6f0PRH9cp",
         descripcion: "Aplicación en nodejs para crear cartas o certificados usando un template y enviarlos por correo.",
         tecnologias: "Nodejs",
         github: "https://github.com/anthonyde98/Tarea-Word",
@@ -103,7 +103,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Registro de estudiantes",
-        imagen: "estudiantes.png",
+        imagen: "1wa5OB9B3ATUczF7NPNBrwmmgw5DqwdPl",
         descripcion: "Aplicación para gestionar un registro de estudiantes.",
         tecnologias: "HTML, JS, CSS",
         github: "https://github.com/anthonyde98/Ejercicio-estudiantes",
@@ -114,9 +114,9 @@ const PROYECTOS = [
     },
     {
         nombre: "APIBooks",
-        imagen: "apibook.png",
+        imagen: "1nSu5MunTMQK52pOpz9iPl3MSAmb7vHSW",
         descripcion: "API para gestionar libros.",
-        tecnologias: "ASP.Net, C#",
+        tecnologias: "ASP.Net, Sql Server",
         github: "https://github.com/anthonyde98/APIBooks",
         enlace: "",
         produccion: false,
@@ -125,7 +125,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Blog Api",
-        imagen: "api.jpg",
+        imagen: "1z30PIwdJHKblsutrmCuPdE2Nc1jPiphw",
         descripcion: "API o backend para crear, editar, ver y eliminar blogs.",
         tecnologias: "Nodejs, Express, MongoDB",
         github: "https://github.com/anthonyde98/blogs-api",
@@ -136,7 +136,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Cliente Api",
-        imagen: "api.jpg",
+        imagen: "1z30PIwdJHKblsutrmCuPdE2Nc1jPiphw",
         descripcion: "API o backend gestionar los clientes de una empresa.",
         tecnologias: "Nodejs, Express, MongoDB",
         github: "https://github.com/anthonyde98/Prueba-tecnica-clientes/tree/master/cliente-backend",
@@ -147,7 +147,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Credit Scoring API",
-        imagen: "api.jpg",
+        imagen: "1z30PIwdJHKblsutrmCuPdE2Nc1jPiphw",
         descripcion: "API o backend para gestionar y evaluar la data proporcionada por el CORE del Banco Fihogar.",
         tecnologias: "Nodejs, Express, MongoDB",
         github: "https://github.com/Nizar4790k/cred-scoring-app-backend",
@@ -158,7 +158,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Books Application",
-        imagen: "book.png",
+        imagen: "1suejasLut0GZSkol_elRXD2mKHryK1W1",
         descripcion: "Aplicación web frontend para gestionar libros.",
         tecnologias: "Angular",
         github: "https://github.com/anthonyde98/books-application",
@@ -169,7 +169,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Tarea Final Clientes-Paises",
-        imagen: "cp.png",
+        imagen: "17rAqEAXaMtNVgYtRL8_W1q8CrmP27NQC",
         descripcion: "Aplicación web tipo CRUD de clientes y paises.",
         tecnologias: "ASP.Net, Sql Server, Razor",
         github: "https://github.com/anthonyde98/TareaFinal",
@@ -180,7 +180,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Aplicacion de elecciones",
-        imagen: "elecciones.png",
+        imagen: "12PxwihwT79IFFyBf7bl6BP0AGL3eyiRX",
         descripcion: "Aplicación web para mostrar la información electoral de un grupo de personas.",
         tecnologias: "Angular, Firebase",
         github: "https://github.com/anthonyde98/info-eleccion-uasd",
@@ -191,7 +191,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Blue Chat",
-        imagen: "chat.png",
+        imagen: "1G8lMKJPD1DChpw5KDeJi0g83M8hXg2pe",
         descripcion: "Aplicación móvil de chat.",
         tecnologias: "Angular, Ionic, Capacitor, Firebase",
         github: "https://github.com/anthonyde98/blue-chat",
@@ -202,7 +202,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Film Magic",
-        imagen: "film.png",
+        imagen: "1Z5AZBbyo_LYmu3KlRkYCP60sanG3_nuk",
         descripcion: "Aplicación para gestionar tienda de renta de peliculas.",
         tecnologias: "C#, Sql Server",
         github: "https://github.com/anthonyde98/FilmMagic",
@@ -213,7 +213,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Prestamos App",
-        imagen: "prestamos.png",
+        imagen: "19d-ADl-1m5o1ILOdLP_62Dbj4kIV3I_c",
         descripcion: "Aplicación para gestionar prestamos.",
         tecnologias: "C#, Sql Server",
         github: "https://github.com/anthonyde98/Proyectos-CSharp/tree/master/Proyecto%20Prestamos",
@@ -224,7 +224,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Manejo de viajes - Gestión de libreria",
-        imagen: "vl.png",
+        imagen: "1msFzqX9TBP8lS0FJf1hCAbLXhI3zB08F",
         descripcion: "Aplicación para gestionar un aeropuerto y una tienda de libros.",
         tecnologias: "C#, Sql Server",
         github: "https://github.com/anthonyde98/Proyectos-CSharp/tree/master/Proyecto%20Viajes%20-%20Tienda",
@@ -235,7 +235,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Login",
-        imagen: "loginphp.png",
+        imagen: "1V3eWzKDIg14A8WX-7m49PXO9rMsecrE3",
         descripcion: "Una app para manejar el logueo de usuarios.",
         tecnologias: "PHP, MySQL",
         github: "https://github.com/anthonyde98/Proyectos-Web/tree/master/Proyecto%20Login",
@@ -245,8 +245,30 @@ const PROYECTOS = [
         icon: ""
     },
     {
+        nombre: "Mascotas",
+        imagen: "1HhZ6wXbzNJlH4JNhvOT6X4RP9JVwMRLd",
+        descripcion: "Una app para gestionar las mascotas del ITLA.",
+        tecnologias: "PHP, MySQL",
+        github: "https://github.com/Jeremy-Polanco/mascotas-crud",
+        enlace: "",
+        produccion: false,
+        entorno: "web",
+        icon: ""
+    },
+    {
+        nombre: "ToDo List",
+        imagen: "1pQLaM6HdO8oXVpb8k6Ww6J1YNIaz7rma",
+        descripcion: "Una app para gestionar tareas.",
+        tecnologias: "PHP, MySQL",
+        github: "https://github.com/anthonyde98/ToDoList-PHP",
+        enlace: "",
+        produccion: false,
+        entorno: "web",
+        icon: ""
+    },
+    {
         nombre: "Creación de facturas",
-        imagen: "javac.jpg",
+        imagen: "1k3Rwr2ICcb_8v7XObARJa4Vy7WfhiGs2",
         descripcion: "Una app para crear facturas.",
         tecnologias: "Java",
         github: "https://github.com/anthonyde98/Proyectos-Java/tree/master/Proyecto%20Facturas",
@@ -257,7 +279,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Manejo de participantes",
-        imagen: "javac.jpg",
+        imagen: "1k3Rwr2ICcb_8v7XObARJa4Vy7WfhiGs2",
         descripcion: "Una app para manejar participantes.",
         tecnologias: "Java",
         github: "https://github.com/anthonyde98/Proyectos-Java/tree/master/Proyecto%20Participantes",
@@ -268,7 +290,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Proyectos en PowerShell",
-        imagen: "power.png",
+        imagen: "1Y_A-T7hnkPNeTIPpjPvgZgLE6eGeT67l",
         descripcion: "Apps realizadas en PowerShell: correos, procesos, calculadora y subida de archivos a la nube.",
         tecnologias: "PowerShell",
         github: "https://github.com/anthonyde98/Proyectos-PowerShell",
@@ -279,7 +301,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Manejo de empleados",
-        imagen: "empleados.png",
+        imagen: "1s-T1LkKUUGmHhfAS1jotoXrfWkfbXyDQ",
         descripcion: "Aplicación web tipo CRUD de empleados.",
         tecnologias: "Angular, Firebase",
         github: "https://github.com/anthonyde98/Empleado",
@@ -290,7 +312,7 @@ const PROYECTOS = [
     },
     {
         nombre: "API Ventas",
-        imagen: "api.jpg",
+        imagen: "1z30PIwdJHKblsutrmCuPdE2Nc1jPiphw",
         descripcion: "API que maneja la venta de productos.",
         tecnologias: "ASP.Net, Sql Server",
         github: "https://github.com/anthonyde98/APIVentas",
@@ -301,7 +323,7 @@ const PROYECTOS = [
     },
     {
         nombre: "Food Shot",
-        imagen: "food.png",
+        imagen: "1u7J9nxN_xNW49iZ-EpfSH7b0J-4W2qmy",
         descripcion: "Juego sobre un granjero que debe de alimentar animales disparandole comida antes que lleguen a el.",
         tecnologias: "Unity, C#",
         github: "https://github.com/anthonyde98/Food-Shot",

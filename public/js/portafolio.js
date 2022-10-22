@@ -98,7 +98,7 @@ const llenarSeccion = (entorno, tipo) => {
             proyectos += `
             <div class="proyecto" title='${proyecto.nombre}'>
                 <div class="imagen">
-                    <img src="img/${proyecto.imagen}" alt="${proyecto.nombre}">
+                    <img src="http://drive.google.com/uc?export=view&id=${proyecto.imagen}" alt="${proyecto.nombre}">
                 </div>
                 <div class="descripcion sec-proyec">
                     <p class="des">${proyecto.descripcion}</p>
